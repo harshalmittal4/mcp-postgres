@@ -9,6 +9,9 @@ import logging
 import os
 import argparse
 import signal
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
